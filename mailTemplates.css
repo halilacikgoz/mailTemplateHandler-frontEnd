@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Dosis', sans-serif;
+  line-height: 1.6;
+  color: #666;
+  background: #F6F6F6;
+}
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header{
+  color: hotpink;
+  font-size: 30px;
+  text-align: center;
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+p {
+  margin: 0;
+}
+
+
+
+.value_{
+  display: inline-block;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info{
+    color:red;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+.changeButton{
+  display: block;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #ddd;
+  border: none;
+  color: green;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.backButton{
+  display: block;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #ddd;
+  border: none;
+  color: red;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 16px;
+}
+
+
+.card {
+  padding: 10px;
+  margin: 1rem;
+  background: white;
+  box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all .2s linear;
+}
+
+.card:hover {
+  box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
+  transform: translate3D(0, -2px, 0);
+}
+
+@media screen and (min-width: 600px) {
+  .card {
+    flex: 1 1 calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .card {
+    flex: 1 1 calc(33% - 2rem);
+  }
+}
+
+.card:nth-child(2n) h1 {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.card:nth-child(4n) h1 {
+  background-image: linear-gradient(120deg, #ff9a9e 0%, #fecfef 100%);
+}
+
+.card:nth-child(5n) h1 {
+  background-image: linear-gradient(120deg, #ffc3a0 0%, #ffafbd 100%);
+}
