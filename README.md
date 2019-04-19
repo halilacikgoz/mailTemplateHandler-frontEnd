@@ -1,5 +1,5 @@
 # mailTemplateHandler-frontEnd
-Live: https://halilacikgoz.github.io/mailTemplateHandler-frontEnd/ 
+Live: https://halilacikgoz.github.io/mailTemplateHandler-frontEnd/  (But the rest API is not on the server. So you will not get the same pages with the below ones)
 
 The company that I make my internship have lots of mail types and templates. And there are 1000+ workers who are using these e-mail templates and these workers often want to make change on these e-mail's. That's why I developed this project that they can make changes on these e-mail templates.
 
